@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      background-color:hsl(212, 45%, 89%);
+    }
+
+    .continar{
+      background-color: white;
+      position: absolute;
+      right: 20%;
+      bottom: 20%;
+      max-width: 250px;
+      border: 2px solid inherit;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .img{
+      background-color: inherit;
+      max-width: 230px;
+      padding: 8px;
+      border-radius: 2rem;
+    }
+    .continar > h1{
+      background-color: inherit;
+
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      padding: 5px 10px;
+
+    }
+    .continar > p {
+      background-color: inherit;
+
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      padding: 5px 10px;
+
+    }
+  </style>
+</head>
+<body>
+<div class="continar">
+  <img src="image-qr-code.png" class="img" alt="">
+  <h1 class="title">Improve your front-end skills by building projects</h1>
+  <p>Scan the QR to visit frontedn mintore and take yoyr coding to the next level</p>
+  </div>
+</body>
+</html>
